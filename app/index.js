@@ -13,6 +13,8 @@ function searchForTitle(name) {
     });
 }
 
+searchForTitle('Breaking Bad');
+
 button.addEventListener('click', () => {
   searchForTitle(searchInput.value);
 });
